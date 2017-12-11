@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/com"
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            app:srcCompat="@drawable/imagefit"
+            />
+
+        <Button
+            android:id="@+id/engevents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="open"
+            android:text="FITNESS AND RECREATION CENTER EVENTS" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Boston University Fitness and Recreation Center (or FitRec) is an athletic facility at Boston University. Built in 2004–2005 to replace the aging and inadequate Case Gym, the FitRec was built on the site of a National Guard Armory, to which there is a nod in the form of an informative plaque, found just west of the building.
+
+The $97 million building opened in April 2005 as part of Boston University's John Hancock Student Village. It includes an 18,000 square feet (1,700 m2) weight and cardio room, an 1/7 mile (230 m) indoor jogging track, a climbing wall, two swimming pools, a ProShop, various gyms, racketball and squash courts, and an oft-cited lazy river. A total of 4500 students use the facility daily."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+</ScrollView>
